@@ -1,0 +1,39 @@
+.app {
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  width: 210px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.product-img {
+  width: 150px;
+  height: 150px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-no {
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.pagination-container {
+  padding: 20px;
+}
+
+.active {
+  background-color: greenyellow;
+  color: white;
+  font-weight: 600;
+}
